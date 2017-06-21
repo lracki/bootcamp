@@ -44,9 +44,9 @@ def reverse_complement(seq):
         return seq.upper()
     else:
         return seq
-        
+
 def reverse_rna_complement(seq):
-    """Convert a DNA sequence into its reverse complement as RNA"""
+    """Convert a DNA sequence to rev comp as RNA, same letter case as input"""
 
     #determine if the original sequence was uppercase
     seq_upper = seq.isupper()
